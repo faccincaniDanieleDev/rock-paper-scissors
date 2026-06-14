@@ -34,7 +34,7 @@ rock-paper-scissors/
 
 │
 
-├── image/
+├── assets/
 
 │   ├── rockImage.png
 
