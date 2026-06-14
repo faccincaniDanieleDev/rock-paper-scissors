@@ -7,7 +7,7 @@ from .moveType import MoveType
 from .gameMatch import GameMatch
 
 # Absolute path of this file's directory, used to resolve image assets
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class GUI(ctk.CTk):
     """Main application window for the Rock Paper Scissors game.
